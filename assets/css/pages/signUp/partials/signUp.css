@@ -1,2 +1,15 @@
 @import url(section-one.css);
 @import '/assets/css/global/global.css';
+
+body {
+    background-color: black;
+    color:white;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+section {
+    width: 100%;
+}

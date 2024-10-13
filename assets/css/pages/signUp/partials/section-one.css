@@ -5,3 +5,42 @@
     background-size: cover;
     width: 100%;
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    backdrop-filter: blur(1px);
+}
+
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    padding: 174px;
+    align-items: center;
+
+    img {
+        max-width: 400px;
+    }
+}
+
+label {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    outline: 0;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color:blue;
+}
