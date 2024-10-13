@@ -8,10 +8,49 @@
     <link rel="stylesheet" href="assets/css/pages/signUp/partials/signUp.css">
 </head>
 <body>
-    <section>
+    <section class="background">
         <div class="container">
             <div class="signUpForm">
-                
+                <img src="/assets/images/pages/signUp/Become a Lord of Cinder.png" alt="Become a Lord of Cinder">
+                <br>
+                <form action="" method="get">
+                    <label>
+                        Choose your class <br>
+                        <select name="classes">
+                            <option value="" selected>Warrior</option>
+                            <option value="">Knight</option>
+                            <option value="">Wanderer</option>
+                            <option value="">Thief</option>
+                            <option value="">Bandit</option>
+                            <option value="">Hunter</option>
+                            <option value="">Sorcerer</option>
+                            <option value="">Pyromancer</option>
+                            <option value="">Cleric</option>
+                            <option value="">Deprived</option>
+                        </select>
+                    </label>
+                    <label>
+                        Name
+                        <input type="text" name="user" required><br>
+                    </label>
+                    <label>
+                        Birth
+                        <input type="date" name="birthday" required><br>
+                    </label>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" required><br>
+                    </label>
+                    <label>
+                        Password
+                        <input type="password" name="password" required><br>
+                    </label>
+                    <label>
+                        <input type="checkbox" required>
+                        I have read and agree to the <a href="#" class="link">WebsiteName Terms</a>.
+                    </label>
+                    <input type="submit" value="Sign up">
+                </form>
             </div>
         </div>
     </section>

@@ -1,0 +1,7 @@
+
+.background {
+    display: block;
+    background-image: url(/assets/images/pages/signUp/signUp_Background.jpg);
+    background-size: cover;
+    width: 100%;
+}
